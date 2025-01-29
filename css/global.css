@@ -6,7 +6,7 @@
   padding: 0;
 }
 
-img, svg {
+img {
   display: block;
   /* width: 100%; */
   width: 150px;
@@ -15,4 +15,9 @@ img, svg {
 a {
   text-decoration: none;
   color: black;
+}
+
+a svg {
+  width: 150px;
+  color: cadetblue;
 }
