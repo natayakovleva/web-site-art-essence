@@ -1,15 +1,37 @@
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "EB Garamond", serif;
+}
+
+:root {
+
+  --text-color: color: rgb(185, 163, 144);
+
+  --brand-color: #a66e3c;
+  --dark-shade-color: #89422e;
+
+  --text-dark-color: color: rgb(148, 122, 100);
+
+  --ui-btn-primary-border-color: #89422e;
+  --ui-btn-primary-color: #ffffff;
+  --ui-btn-secondary-color: #89422e;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
 }
 
 img {
   display: block;
-  /* width: 100%; */
-  width: 150px;
+  width: 100%;
 }
 
 a {

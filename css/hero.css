@@ -1,0 +1,7 @@
+.hero__bg {
+  height: 740px;
+  background-image: url('/img/hero-bg.png');
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+}

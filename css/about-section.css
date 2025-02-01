@@ -1,0 +1,25 @@
+.section__about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 рівні колонки */
+  grid-auto-rows: minmax(100px, auto); /* Мінімальна висота рядка 100px, але може бути більше */
+  grid-template-areas: 
+    "a b c"
+    "d b c";
+  gap: 10px; /* Відступи між картинками */
+}
+
+.item1 { grid-area: a; }
+.item2 { grid-area: b; }
+.item3 { grid-area: c; }
+.item4 { grid-area: d; }
+
+/* Робимо картинки b, c, d вдвічі вищими */
+.item2 {
+  grid-row: span 2; /* Бере 2 рядки */
+}
+.item3 {
+  grid-row: span 2; /* Бере 2 рядки */
+}
+.item4 {
+  grid-row: span 2; /* Бере 2 рядки */
+}

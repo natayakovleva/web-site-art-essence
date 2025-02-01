@@ -12,11 +12,22 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <h1>H1</h1>
     <header
       data-hx-trigger="load"
       data-hx-swap="outerHTML"
       data-hx-get="index.header.partial.html"
     ></header>
+    <main>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.hero.partial.html"
+      ></section>
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="index.about.partial.html"
+      ></section>
+    </main>
   </body>
 </html>
