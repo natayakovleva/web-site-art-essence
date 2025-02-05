@@ -1,0 +1,39 @@
+.header {
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+}
+
+.header__logo-img {
+  width: 120px;
+}
+
+.header__nav {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.header__nav-link {
+  font-size: 11px;
+  color: rgb(185, 163, 144);
+  font-weight: 700;
+  letter-spacing: 2.2px;
+  font-family: "Lato", serif;
+}
+
+.header__media {
+}
+
+.header__media-link {
+}
+
+.header__media-img {
+  width: 25px;
+}
