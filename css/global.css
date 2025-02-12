@@ -10,14 +10,10 @@
 }
 
 :root {
-
-  --text-color: color: rgb(185, 163, 144);
-
+  --text-color: rgb(185, 163, 144);
   --brand-color: #a66e3c;
   --dark-shade-color: #89422e;
-
-  --text-dark-color: color: rgb(148, 122, 100);
-
+  --text-dark-color: rgb(148, 122, 100);
   --ui-btn-primary-border-color: #89422e;
   --ui-btn-primary-color: #ffffff;
   --ui-btn-secondary-color: #89422e;
@@ -43,4 +39,11 @@ a {
 a svg {
   width: 150px;
   color: cadetblue;
+}
+
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
 }
